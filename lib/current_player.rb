@@ -10,7 +10,6 @@ end
  end
  
  def current_player(board)
-   space = current_player(board)
    if turn_count(board).even?
      "X"
   else 
